@@ -17,7 +17,7 @@ public class DayTimeClient {
             String time = new String(inputBytes, StandardCharsets.US_ASCII);
             System.out.println(time);
         } catch (UnknownHostException e) {
-            System.out.println("Can't connect to host!!");
+            System.out.println("Can't connect to host!");
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
